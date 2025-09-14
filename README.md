@@ -55,13 +55,15 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 {
   "mcpServers": {
     "forecasting-calculator": {
-      "command": "/Users/marwankashef/Desktop/Early AI-dopters/Claude Code Demo 16/forecasting-calculator-mcp/run_forecasting_calculator.sh",
+      "command": "/path/to/your/forecasting-calculator-mcp/run_forecasting_calculator.sh",
       "args": [],
       "env": {}
     }
   }
 }
 ```
+
+**Note:** Replace `/path/to/your/` with the actual path where you installed the server.
 
 ## Usage Examples
 
